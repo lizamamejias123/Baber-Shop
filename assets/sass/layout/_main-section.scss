@@ -1,0 +1,119 @@
+.main__image {
+    width: 100%;
+    padding-top: 60px;
+    position: relative;
+}
+
+.main__title {
+
+    color: $white;
+    position: absolute;
+    font-family: $playfair;
+    font-style: italic;
+    top: 150px;
+    font-weight: $extrabolt-italian;
+}
+
+.section__text {
+    padding: 10%;
+    padding-bottom: 5% !important;
+}
+
+.section__perfil {
+    padding: 10%;
+    padding-top: 0px !important;
+    width: 100%;
+}
+
+.section__text__parrafo {
+    font-family: $roboto;
+    font-size: $small;
+    line-height: 35px;
+    color: $nickel;
+}
+
+.section__text__fecha {
+    font-family: $playfair;
+    font-size: $small;
+    padding-bottom: 20px;
+    color: $nickel;
+}
+
+.section__text__button {
+    background-color: $nickel;
+    color: $white;
+    border-radius: 50px;
+    font-family: $roboto;
+    font-size: $small;
+    color: $platinum;
+    padding: 10px;
+    text-align: center;
+    border: 20px;
+
+    &:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+
+    &:focus {
+        border: -1px solid $light-gray;
+
+    }
+}
+
+.section__text__div {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.section__perfil__foto {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.section__perfil__datos {
+    padding: 2%;
+}
+
+.section__perfil__datos__nombre {
+    color: $eerie-black;
+    font-family: $playfair;
+    font-style: italic;
+    font-weight: $extrabolt-italian;
+
+}
+
+.section__perfil__datos__pagina {
+    color: $spanish-pink;
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $large;
+
+}
+
+*.section__pagination {
+    background-color: $platinum;
+    
+
+
+}
+
+* .section__pagination__botones__anterior {
+    border-top-left-radius: 1.25rem !important;
+    border-bottom-left-radius: 1.25rem !important;
+    color: $nickel;
+}
+
+* .section__pagination__botones__siguiente {
+    border-top-right-radius: 1.25rem !important;
+    border-bottom-right-radius: 1.25rem !important;
+    color: $nickel;
+}
+
+*.section__pagination__botones {
+    color: $nickel;
+}
+
+
+
+

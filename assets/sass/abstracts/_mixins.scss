@@ -1,0 +1,104 @@
+@media (min-width:0px) and (max-width: 480px) {
+
+    .logo__image {
+        width: 55px;
+        margin-left: 15px;
+    }
+
+    .main__title {
+        font-size: $x-large;
+
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .main__image {
+        width: 100%;
+        padding-top: 60px;
+        position: relative;
+
+    }
+
+    .section__perfil__foto {
+        padding-left: 90px;
+        width: auto;
+        padding-right: 90px
+    }
+
+    .section__perfil__datos__nombre {
+        text-align: center;
+
+    }
+
+    .section__perfil__datos__pagina {
+        text-align: center;
+
+    }
+
+    .section__pagination {
+        padding: 10%;
+    }
+
+    .footer__logo {
+        width: 90px;
+    }
+
+    * .section__pagination__botones__fondo {
+        background-color: black;
+        color: $white;
+    }
+}
+
+
+@media (min-width:901px) and (max-width: 2000px) {
+    .main__title {
+        font-size: $xx-large;
+        text-align: center;
+        padding-left: 19%;
+        padding-right: 19%;
+        padding-top: 130px;
+    }
+
+    .section__pagination {
+        padding: 50px;
+    }
+
+    .footer__logo {
+        width: 120px;
+    }
+
+    * .section__pagination__botones__fondo {
+        color: $white;
+        background-color: $nickel;
+    }
+
+}
+
+@media (min-width:481px) and (max-width: 900px) {
+    .main__title {
+        font-size: $xx-large;
+        text-align: center;
+        padding-left: 19%;
+        padding-right: 19%;
+        top: 350px;
+    }
+    * .section__pagination__botones__fondo {
+        color: $white;
+        background-color: $nickel;
+    }
+    .section__pagination {
+        padding: 50px;
+    }
+
+    .footer__logo {
+        width: 120px;
+    }
+
+    * .section__pagination__botones__fondo {
+        color: $white;
+        background-color: $nickel;
+    }
+
+}
